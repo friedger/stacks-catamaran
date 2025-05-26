@@ -13,7 +13,7 @@ const Header = ({ chain }: { chain: string }) => {
 
   return (
     <div className="w-full overflow-x-hidden relative">
-      <div className='w-full text-center bg-white dark:bg-gray-600 p-2'>This is a beta version. Swap amounts are limited to 0.0001 sBTC/BTC. <a href="https://github.com/friedger/stacks-catamaran/issues/new">Submit issue on github!</a></div>
+      <div className='w-full text-center bg-white dark:bg-gray-600 p-2'>This is a beta version. Swap amounts are limited to 0.2 sBTC/BTC. <a href="https://github.com/friedger/stacks-catamaran/issues/new">Submit issue on github!</a></div>
       <Navbar navbarVisible={navbarVisible} setNavbarVisible={setNavbarVisible} chain={chain} />
       <div className="w-full h-20 flex justify-center">
         <div className="max-w-[1440px] w-full px-5 sm:px-20 flex justify-between items-center">

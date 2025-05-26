@@ -106,10 +106,10 @@ const CatamaranSwap = ({
         ...error,
         sendAmount: 'You cannot send more than your balance.',
       });
-    } else if (balanceSBTC && sendAmount > 0.0001) {
+    } else if (balanceSBTC && sendAmount > 0.2) {
       setError({
         ...error,
-        sendAmount: 'During beta phase, amounts are limited to 0.0001 sBTC',
+        sendAmount: 'During beta phase, amounts are limited to 0.2 sBTC',
       });
     } else if (error.sendAmount) {
       setError({
